@@ -1,5 +1,18 @@
 <img src="https://res.cloudinary.com/bytefury/image/upload/v1574149856/Crater/craterframe.png">
 
+## Ryan's Notes
+
+`docker-compose up -d` to run
+
+Did a database migration with `docker exec crater_app_1 php artisan migrate --force`
+
+Now need to reconfigure the database, but forgot what the database name and username are. Need to find the original tutorial I used for this.
+
+    Database Host: db
+    Database Name: crater
+    Database Username: crater
+    Database Password: crater
+
 ## Introduction
 
 Crater is an open-source web & mobile app that helps you track expenses, payments & create professional invoices & estimates.
